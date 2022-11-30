@@ -93,6 +93,10 @@
     }
     &__infos {
       margin-left: 10rem;
+      @include breakpoint-down(tab) {
+        margin-left: 0rem;
+        margin-bottom: 3rem;
+      }
       .button-container {
         @include breakpoint-down(tab) {
           justify-content: center;

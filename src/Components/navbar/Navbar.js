@@ -173,12 +173,12 @@ const Navbar = () => {
             <li>
               <a href="#">
                 <button className="header__lg-btn" id="login">
-                  Login
+                  Log in
                 </button>
               </a>
               <a href="#">
                 <button className="header__oa-btn" id="open">
-                  Sign Up
+                  Open Account
                 </button>
               </a>
             </li>
