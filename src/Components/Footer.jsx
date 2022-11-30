@@ -16,8 +16,8 @@ const Footer = () => {
             <div className="footer__logo">
               <img src={logo} alt="logo" />
               <p>
-                Copyright @2016-2022 No name
-                <br /> 1 All rights resevred
+                Copyright @2016-2022 TechCapitals
+                <br /> All rights resevred
               </p>
             </div>
             <div className="footer__social">
@@ -129,7 +129,7 @@ const Footer = () => {
                 Forecasts for the future do not constitute a reliable indicator
                 of future performance. Copyright for the pages and for the
                 screens displaying the pages, and for the information, material
-                and their arrangement, is owned by No name 1 all rights
+                and their arrangement, is owned by TechCapitals all rights
                 reserved.
               </p>
               <p>

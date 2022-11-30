@@ -25,7 +25,7 @@ const CFDCommodities = () => {
                 raw or primary products. There are different categories of
                 commodities, all supported by the same basic economic
                 principles: lower supply equals higher prices and vice versa. At
-                No name 1 you can trade up to 3 CFDs on Commodities such as
+                TechCapitals you can trade up to 3 CFDs on Commodities such as
                 COCOA, COFFEE and SOYBEAN with very favour able terms.
               </p>
             </div>
@@ -42,8 +42,8 @@ const CFDCommodities = () => {
       </section>
       {/* Details */}
       <CFDDetails
-        heading="Trade Different Commodities with No name 1"
-        info="With No name 1 you can trade up to 3 CFDs on Commodities such as COCOA, COFFEE and SOYBEAN with very favour able terms."
+        heading="Trade Different Commodities with TechCapitals"
+        info="With TechCapitals you can trade up to 3 CFDs on Commodities such as COCOA, COFFEE and SOYBEAN with very favour able terms."
         button="PRODUCT LIST"
         to="/allinstrumentscommodities"
         img={cfdImg}

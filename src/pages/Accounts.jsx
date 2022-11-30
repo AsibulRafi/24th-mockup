@@ -27,7 +27,7 @@ const Accounts = () => {
         <div className="accountFunding__wrapper">
           <div className="accountFunding__heading">
             <h2>Account Funding</h2>
-            <p>There are 3 different ways to fund your Cryptoco Account:</p>
+            <p>There are 3 different ways to fund your TechCapitals Account:</p>
           </div>
           <div className="accountFunding__content">
             <div className="accountFunding__content-infos">
@@ -97,7 +97,7 @@ const Accounts = () => {
                   <i className="fas fa-circle"></i>
                   <p>
                     For further inquiries regarding funding please contact us on
-                    supportNoname1.com or through our live chat.
+                    support@techcapitals.com or through our live chat.
                   </p>
                 </div>
               </div>

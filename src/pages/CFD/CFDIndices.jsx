@@ -23,7 +23,7 @@ const CFDIndices = () => {
                 An index is a statistical representation of an equity market
                 through a basket of stocks. An index measures the value of a
                 group of stocks and therefore investors can invest on indices
-                that represent specific markets. With No name 1 you can trade
+                that represent specific markets. With TechCapitals you can trade
                 more than 10 of the world's most prolific indices covering Asia,
                 North America and Europe, including the renowned Dow Jones
                 Industrial Average (DJIA) which is extremely popular with
@@ -35,7 +35,7 @@ const CFDIndices = () => {
               </p>
             </div>
             <div className="cfdHeading__content-info">
-              <h2>With No name 1 you can:</h2>
+              <h2>With TechCapitals you can:</h2>
               <ul>
                 <li>
                   Long Positions (Buy) – Clients holding long positions on the
@@ -62,8 +62,8 @@ const CFDIndices = () => {
       </section>
       <CFDDetails
         heading="Trade Different Indices with
-No name 1"
-        info="Trade CFDs on different Indices on the Market with No name 1's Platform including Nasdaq and Dow Jones.   "
+TechCapitals"
+        info="Trade CFDs on different Indices on the Market with TechCapitals's Platform including Nasdaq and Dow Jones.   "
         button="PRODUCT LIST"
         to="/allinstrumentsindices"
         img={cfdImg}

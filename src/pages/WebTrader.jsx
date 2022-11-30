@@ -9,12 +9,12 @@ const WebTrade = () => {
     <>
       <section className="webTrader">
         <div className="webTrader__wrapper">
-          <h2 className="webTrader__heading">No Name 1's Web Trader</h2>
+          <h2 className="webTrader__heading">TechCapitals's Web Trader</h2>
           <div className="webTrader__content">
             <div className="webTrader__content-text">
               <h2>Web Trader</h2>
               <p>
-                No Name 1 is providing a new web based trading platform that
+                TechCapitals is providing a new web based trading platform that
                 runs on both PC and Mac. This platform, broadens our reach and
                 addresses some ongoing needs of our clients who require a stable
                 and flexible trading solution to access global forex markets.

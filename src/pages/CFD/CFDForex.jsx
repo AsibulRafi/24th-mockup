@@ -30,7 +30,7 @@ const CFDForex = () => {
               </p>
             </div>
             <div className="cfdHeading__content-info">
-              <h2>With No name 1 you can:</h2>
+              <h2>With TechCapitals you can:</h2>
               <ul>
                 <li>Trade 68+ currency pairs: majors, minors and exotics</li>
                 <li>Direct access to the Forex Market 24/5</li>

@@ -24,10 +24,10 @@ const CFDMetals = () => {
                 such as Gold and Silver have been recognized as valuable assets
                 and have always been a very popular choice of investing.
                 Precious metals, especially Gold has always been referred to as
-                ‘Safe Heaven' in times of economic uncertainty. No name 1 offers
-                investors, who do not want to face economic turbulence, access
-                to three fives of metals: Gold, Silver, Palladium, Platinum and
-                Copper.
+                ‘Safe Heaven' in times of economic uncertainty. TechCapitals
+                offers investors, who do not want to face economic turbulence,
+                access to three fives of metals: Gold, Silver, Palladium,
+                Platinum and Copper.
               </p>
             </div>
           </div>
@@ -43,8 +43,8 @@ const CFDMetals = () => {
       </section>
       {/* Details */}
       <CFDDetails
-        heading="Trade Different Metals with No name 1"
-        info="Trade CFDs on five of the major major Metals on the Market  with No name 1's Platform."
+        heading="Trade Different Metals with TechCapitals"
+        info="Trade CFDs on five of the major major Metals on the Market  with TechCapitals's Platform."
         button="PRODUCT LIST"
         to="/allinstrumentsmetals"
         img={cfdImg}

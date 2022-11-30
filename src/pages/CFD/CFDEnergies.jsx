@@ -23,9 +23,9 @@ const CFDEnergies = () => {
                 traded in heavy volumes around the clock offering multiple
                 opportunities to online traders. Whether it is US Crude Oil
                 (WTI), Brent Oil (Brent) or Natural Gas (NATGAS.f), energy
-                commodities are quoted in USD. At No name 1 you can trade 3 CFDs
-                on energies such as Crude Oil, Brent Oil and Natural Gas, with
-                very favour able terms.
+                commodities are quoted in USD. At TechCapitals you can trade 3
+                CFDs on energies such as Crude Oil, Brent Oil and Natural Gas,
+                with very favour able terms.
               </p>
             </div>
           </div>
@@ -42,8 +42,8 @@ const CFDEnergies = () => {
       {/* Details */}
       <CFDDetails
         heading="Trade Different Energies with
-No name 1"
-        info="Trade 3 CFDs on energies such as Crude Oil, Brent Oil and Natural Gas, with very favour able terms on No name 1's Trading Platform."
+TechCapitals"
+        info="Trade 3 CFDs on energies such as Crude Oil, Brent Oil and Natural Gas, with very favour able terms on TechCapitals's Trading Platform."
         button="PRODUCT LIST"
         to="/allinstrumentsenergies"
         img={cfdImg}

@@ -46,8 +46,8 @@ const CFDCryptocurrencies = () => {
       </section>
       {/* Details */}
       <CFDDetails
-        heading="Trade Different Cryptocurrencies with No name 1"
-        info="Trade on cryptocurrency pairs like BTC/USD or ETH/USD with No name 1's Trading Platform."
+        heading="Trade Different Cryptocurrencies with TechCapitals"
+        info="Trade on cryptocurrency pairs like BTC/USD or ETH/USD with TechCapitals's Trading Platform."
         button="PRODUCT LIST"
         to="/allinstrumentscryptocurrencies"
         img={cfdImg}

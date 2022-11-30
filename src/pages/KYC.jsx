@@ -10,7 +10,7 @@ const KYC = () => {
         <div className="kyc__heading">
           <h2>KYC GUIDE</h2>
           <p>
-            In order to be verified by the No name 1 <br />
+            In order to be verified by the TechCapitals <br />
             you will need to provide us with the following documents
           </p>
         </div>

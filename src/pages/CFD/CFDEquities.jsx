@@ -21,17 +21,18 @@ const CFDEquities = () => {
               <p>
                 Stocks or Equities belong to one of the major asset classes.
                 Stocks are significant as they stand for the real value of one's
-                stake in a corporation listed in a stock exchange. At No name 1
-                you can trade 40+ Stock CFDs that are traded in world major
-                equity markets, such as Apple, Microsoft, Alibaba and Amazon.
-                Dividends Adjustments on Stocks CFDs CFDs on stocks are subject
-                to dividend adjustments. When a stock security pays dividend to
-                its shareholders, dividend adjustments will be made to the
-                trading accounts of clients who hold a position on the Stock.
+                stake in a corporation listed in a stock exchange. At
+                TechCapitals you can trade 40+ Stock CFDs that are traded in
+                world major equity markets, such as Apple, Microsoft, Alibaba
+                and Amazon. Dividends Adjustments on Stocks CFDs CFDs on stocks
+                are subject to dividend adjustments. When a stock security pays
+                dividend to its shareholders, dividend adjustments will be made
+                to the trading accounts of clients who hold a position on the
+                Stock.
               </p>
             </div>
             <div className="cfdHeading__content-info">
-              <h2>With No name 1 you can:</h2>
+              <h2>With TechCapitals you can:</h2>
               <ul>
                 <li>
                   Long Positions (Buy) – Clients holding long positions on the
@@ -58,8 +59,8 @@ const CFDEquities = () => {
       </section>
       {/* Details */}
       <CFDDetails
-        heading="Trade Different  Equities with No name 1s"
-        info="Trade CFDs on 40+ Stock CFDs that are traded in world major equity markets, such as Apple, Microsoft, Alibaba and Amazon with No name 1's Platform.     "
+        heading="Trade Different  Equities with TechCapitals"
+        info="Trade CFDs on 40+ Stock CFDs that are traded in world major equity markets, such as Apple, Microsoft, Alibaba and Amazon with TechCapitals's Platform.     "
         button="PRODUCT LIST"
         to="/allinstrumentsequities"
         img={cfdImg}

@@ -14,20 +14,20 @@ const About = () => {
       <section className="about" id="about">
         <div className="about__wrapper">
           <div className="about__heading">
-            <h2>Who is No Name 1?</h2>
+            <h2>Who is TechCapitals?</h2>
             <hr />
           </div>
           {/* About Content */}
           <div className="about__content">
             <div className="about__content-text">
               <p>
-                No Name 1 was launched a few years back with a unique vision to
-                provide unparalleled advanced trading conditions, premium
+                TechCapitals was launched a few years back with a unique vision
+                to provide unparalleled advanced trading conditions, premium
                 education, and state-of-the-art trading tools in the Forex
                 industry. Due to the continuous focus on localizing our products
                 and services to suit each market, together with our successful
                 collaboration with talented and experienced teams from all over
-                the world. No Name 1 was quickly established as the global
+                the world. TechCapitals was quickly established as the global
                 trademark it is today.
               </p>
               <p>
@@ -42,12 +42,12 @@ const About = () => {
                 passion.
               </p>
               <p>
-                At No Name 1 we are committed to making sure all our clients and
-                investors stay connected to the various opportunities that arise
-                in the market on a daily basis and ease in connecting with one
-                another. With No Name 1 as your financial stockbroker you are
-                sure to get all the professional backing and support you require
-                to soar in Forex trading.
+                At TechCapitals we are committed to making sure all our clients
+                and investors stay connected to the various opportunities that
+                arise in the market on a daily basis and ease in connecting with
+                one another. With TechCapitals as your financial stockbroker you
+                are sure to get all the professional backing and support you
+                require to soar in Forex trading.
               </p>
             </div>
             <div className="about__content-img">
@@ -97,7 +97,7 @@ const About = () => {
               <i className="fas fa-envelope"></i>
               <div className="email">
                 <h2>Support Email:</h2>
-                <p>support@No Name 1.pro</p>
+                <p>support@TechCapitals.pro</p>
               </div>
             </div>
             <div className="contact__content-info-phone">
