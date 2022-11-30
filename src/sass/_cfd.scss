@@ -1,0 +1,234 @@
+.cfdHeading {
+  width: 100%;
+  background-color: #1e1e20;
+  &__wrapper {
+    padding: 20rem 25rem;
+    @media screen and (max-width: 1700px) {
+      padding: 20rem 5rem;
+    }
+    @include breakpoint-down(laptop) {
+      padding: 20rem 4rem;
+    }
+    @include breakpoint-down(tab) {
+      padding: 20rem 3rem;
+    }
+    @include breakpoint-down(mobile) {
+      padding: 15rem 2rem;
+    }
+  }
+  .button-container {
+    justify-content: center;
+    .button1,
+    .button2 {
+      @include breakpoint-down(tab) {
+        font-size: 1.5rem;
+        padding: 1.4rem 3rem;
+        text-align: center;
+      }
+      @media screen and (max-width: 350px) {
+        font-size: 1rem;
+        padding: 0.8rem 1.5rem;
+        letter-spacing: 0;
+      }
+    }
+  }
+  &__content {
+    &-text {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      color: #fff;
+      width: 816px;
+      @include breakpoint-down(tab) {
+        width: 100%;
+      }
+      h2 {
+        font-size: 5rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        @include breakpoint-down(tab) {
+          font-size: 4.2rem;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 3.6rem;
+        }
+      }
+      p {
+        font-size: 1.8rem;
+        line-height: 30px;
+        font-weight: 400;
+        margin-block: 2rem;
+        @include breakpoint-down(mobile) {
+          font-size: 1.4rem;
+          font-weight: 400;
+        }
+      }
+    }
+    &-info {
+      margin-block: 2rem;
+      position: relative;
+      color: #fff;
+
+      h2 {
+        font-size: 2.5rem;
+        font-weight: 500;
+        text-align: center;
+      }
+      ul {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 500px;
+        @include breakpoint-down(tab) {
+          width: 100%;
+        }
+        ::marker {
+          font-size: 3rem;
+          color: #00d7ff;
+          @include breakpoint-down(mobile) {
+            font-size: 1.6rem;
+          }
+        }
+        li {
+          font-size: 1.6rem;
+          font-weight: 400;
+          font-family: "DM Sans", sans-serif;
+          margin-block: 2rem;
+        }
+      }
+    }
+  }
+}
+.wac {
+  background-image: url("../assets/wac.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  &__wrapper {
+    padding: 10rem 25rem;
+    text-align: center;
+    @media screen and (max-width: 1700px) {
+      padding: 10rem 5rem;
+    }
+    @include breakpoint-down(laptop) {
+      padding: 10rem 4rem;
+    }
+    @include breakpoint-down(tab) {
+      padding: 8rem 3rem;
+    }
+    @include breakpoint-down(mobile) {
+      padding: 5rem 2rem;
+    }
+  }
+
+  &__heading {
+    margin-bottom: 5rem;
+    h2 {
+      font-size: 4rem;
+      font-weight: 500;
+      margin-bottom: 3rem;
+      color: #fff;
+      @include breakpoint-down(tab) {
+        font-size: 3.2rem;
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 2.8rem;
+      }
+    }
+  }
+  &__content {
+    p {
+      font-size: 1.6rem;
+      line-height: 30px;
+      margin-bottom: 2rem;
+      color: #fff;
+      @include breakpoint-down(mobile) {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+.cfdDetails {
+  padding: 8rem 20rem;
+  @media screen and (max-width: 1500px) {
+    padding: 8rem 5rem;
+  }
+  @include breakpoint-down(tab) {
+    padding: 8rem 4rem;
+  }
+  @include breakpoint-down(mobile) {
+    padding: 5rem 2rem;
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    @include breakpoint-down(tab) {
+      flex-direction: column-reverse;
+    }
+    &-img {
+      flex-basis: 50%;
+      margin-right: 5rem;
+      img {
+        width: 100%;
+      }
+      @include breakpoint-down(tab) {
+        flex-basis: 100%;
+        margin-bottom: 5rem;
+        margin-right: 0rem;
+      }
+    }
+    &-info {
+      flex-basis: 45%;
+      @include breakpoint-down(tab) {
+        text-align: center;
+      }
+      h4 {
+        font-size: 4rem;
+        font-weight: 500;
+        margin-bottom: 3rem;
+        width: 45rem;
+        @include breakpoint-down(tab) {
+          width: 100%;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 2.4rem;
+        }
+      }
+      p {
+        font-size: 1.8rem;
+        line-height: 30px;
+        width: 45rem;
+        @include breakpoint-down(tab) {
+          width: 100%;
+          font-size: 1.6rem;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 1.4rem;
+        }
+      }
+      button {
+        padding: 2rem 3rem;
+        margin-top: 4rem;
+        font-size: 1.8rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        background: #236bfe;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        @include breakpoint-down(mobile) {
+          font-size: 1.6rem;
+          padding: 1rem 3rem;
+        }
+        &:hover {
+          transition: transform 0.5s ease-out;
+          transform: translateY(-5px);
+          box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+      }
+    }
+  }
+}

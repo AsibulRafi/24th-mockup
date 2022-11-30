@@ -1,0 +1,271 @@
+.commissions {
+  background: #1e1e20;
+  position: relative;
+  &__wrapper {
+    position: relative;
+    z-index: 10;
+    padding: 20rem 20rem;
+    @media screen and (max-width: 1700px) {
+      padding: 20rem 5rem;
+    }
+    @include breakpoint-down(tab) {
+      padding: 20rem 4rem;
+    }
+    @include breakpoint-down(mobile) {
+      padding: 15rem 2rem;
+    }
+  }
+  &__heading {
+    font-size: 6rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 8rem;
+    @media screen and (max-width: 1400px) {
+      font-size: 5rem;
+    }
+    @include breakpoint-down(tab) {
+      font-size: 4.5rem;
+    }
+    @include breakpoint-down(mobile) {
+      font-size: 3rem;
+    }
+  }
+  &__content {
+    &-info {
+      margin-bottom: 5rem;
+      &-1 {
+        margin-bottom: 5rem;
+        h2 {
+          font-size: 3rem;
+          font-weight: 600;
+          color: #fff;
+          margin-bottom: 2rem;
+          @include breakpoint-down(mobile) {
+            font-size: 2.4rem;
+          }
+        }
+        p {
+          font-size: 1.6rem;
+          line-height: 30px;
+          color: #a3a3a6;
+          margin-bottom: 2rem;
+          font-family: "DM Sans", sans-serif;
+          @include breakpoint-down(mobile) {
+            font-size: 1.5rem;
+          }
+        }
+      }
+      &-2 {
+        h2 {
+          font-size: 3rem;
+          font-weight: 600;
+          color: #fff;
+          margin-bottom: 2rem;
+          @include breakpoint-down(mobile) {
+            font-size: 2.4rem;
+          }
+        }
+        p {
+          font-size: 1.6rem;
+          line-height: 30px;
+          color: #a3a3a6;
+          margin-bottom: 2rem;
+          font-family: "DM Sans", sans-serif;
+          @include breakpoint-down(mobile) {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+    &-swap {
+      position: relative;
+      margin-top: 5rem;
+      &-heading {
+        font-size: 4rem;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 4rem;
+        color: #fff;
+        @include breakpoint-down(tab) {
+          margin-bottom: 3rem;
+          font-size: 3.6rem;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 3rem;
+          text-align: center;
+        }
+      }
+      &-text {
+        margin-top: 5rem;
+        text-align: center;
+        font-size: 1.4rem;
+        line-height: 30px;
+        color: #a3a3a6;
+      }
+      &-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 1rem;
+        grid-column-gap: 2rem;
+        @include breakpoint-down(tab) {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        @include breakpoint-down(mobile) {
+          grid-template-columns: repeat(1, 1fr);
+        }
+        &-single {
+          margin-bottom: 2rem;
+          h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            font-weight: 800;
+            color: #236bfe;
+          }
+          h4 {
+            font-size: 1.8rem;
+            font-weight: 500;
+            color: #a3a3a6;
+            @include breakpoint-down(mobile) {
+              font-size: 1.6rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.examples {
+  padding: 10rem 20rem;
+  @media screen and (max-width: 1700px) {
+    padding: 10rem 5rem;
+  }
+  @include breakpoint-down(tab) {
+    padding: 10rem 4rem;
+  }
+  @include breakpoint-down(mobile) {
+    padding: 8rem 2rem;
+  }
+  h2 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+    color: #2a9ef4;
+    text-decoration: underline;
+    @include breakpoint-down(mobile) {
+      font-size: 2.4rem;
+    }
+  }
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10rem;
+    grid-column-gap: 5rem;
+    @include breakpoint-down(tab) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    &-single {
+      display: flex;
+      flex-direction: row;
+      @include breakpoint-down(mobile) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      h1 {
+        font-size: 9rem;
+        color: #a3a3a6;
+        font-weight: 600;
+        margin-right: 3rem;
+        position: relative;
+        top: -20px;
+
+        @include breakpoint-down(mobile) {
+          font-size: 7rem;
+        }
+      }
+      &__text {
+        h4 {
+          font-size: 3rem;
+          font-weight: 500;
+          @include breakpoint-down(mobile) {
+            font-size: 2rem;
+          }
+        }
+      }
+      p {
+        font-size: 1.5rem;
+        line-height: 30px;
+        margin-top: 2rem;
+
+        @include breakpoint-down(mobile) {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}
+.commissions__account {
+  padding: 10rem 20rem;
+  @media screen and (max-width: 1500px) {
+    padding: 10rem 5rem;
+  }
+  @include breakpoint-down(tab) {
+    padding: 10rem 4rem;
+  }
+  @include breakpoint-down(mobile) {
+    padding: 8rem 2rem;
+  }
+  &-heading {
+    text-align: center;
+    h2 {
+      font-size: 4rem;
+      font-weight: 500;
+      margin-bottom: 3rem;
+      color: #236bfe;
+
+      @include breakpoint-down(mobile) {
+        font-size: 2.4rem;
+      }
+    }
+  }
+  &-table {
+    margin-top: 7rem;
+    text-align: center;
+    @include breakpoint-down(tab) {
+      overflow-x: auto;
+    }
+    &-content {
+      width: 100%;
+
+      border: none;
+      border-spacing: 0;
+
+      thead {
+        background: #236bfe;
+        border: none;
+        border-spacing: 0px;
+        border: 1px solid #0a2540;
+      }
+
+      th {
+        font-size: 1.6rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        padding: 3rem 2rem;
+        color: #fff;
+      }
+      td {
+        font-size: 1.6rem;
+        font-weight: 500;
+        text-align: left;
+        padding: 3rem 1rem;
+        background: #1f1e2d;
+        color: #fff;
+        border: 2px solid #fff;
+      }
+    }
+  }
+}

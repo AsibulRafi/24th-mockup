@@ -1,0 +1,123 @@
+.allInstruments {
+  background: #1e1e20;
+  position: relative;
+
+  &__wrapper {
+    position: relative;
+    z-index: 10;
+    padding: 20rem 20rem;
+    @media screen and (max-width: 1500px) {
+      padding: 20rem 5rem;
+    }
+    @include breakpoint-down(tab) {
+      padding: 20rem 4rem;
+    }
+    @include breakpoint-down(mobile) {
+      padding: 15rem 2rem;
+    }
+  }
+  &__heading {
+    margin-bottom: 10rem;
+    text-align: center;
+    h2 {
+      font-size: 6rem;
+      font-weight: 600;
+      text-transform: capitalize;
+      margin-bottom: 2rem;
+      color: #fff;
+      @include breakpoint-down(tab) {
+        font-size: 4rem;
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 3rem;
+      }
+    }
+    p {
+      font-size: 1.8rem;
+      color: #ffffff;
+      font-family: "DM Sans", sans-serif;
+      @include breakpoint-down(tab) {
+        font-size: 1.6rem;
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 1.4rem;
+      }
+    }
+  }
+  &__content {
+    &-links {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-row-gap: 8rem;
+      grid-column-gap: 5rem;
+      @include breakpoint-down(tab) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @include breakpoint-down(mobile) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+    .active {
+      transform: translateY(-15px);
+      a {
+        color: #236bfe !important;
+        opacity: 1;
+      }
+    }
+    &-link {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      @include breakpoint-down(tab) {
+        justify-content: center;
+      }
+      a {
+        font-size: 2.4rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        margin-right: 1rem;
+        text-transform: uppercase;
+        color: #fff;
+        opacity: 0.65;
+        @include breakpoint-down(tab) {
+          font-size: 2.2rem;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  &__table {
+    text-align: center;
+    overflow-x: auto;
+    margin-top: 10rem;
+    &-content {
+      text-align: center;
+      border: none;
+      border-spacing: 0;
+
+      thead {
+        background: #236bfe;
+        border: none;
+        border-spacing: 0px;
+      }
+
+      th {
+        font-size: 1.6rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        padding: 2rem;
+        color: #fff;
+        background: #236bfe;
+        border-bottom: 2px solid #236bfe;
+      }
+      td {
+        background: #fff;
+        font-size: 1.4rem;
+        padding: 2rem 1rem;
+        color: #000;
+      }
+    }
+  }
+}

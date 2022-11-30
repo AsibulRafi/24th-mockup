@@ -1,0 +1,249 @@
+.hero {
+  width: 100%;
+  height: 100%;
+  background: #1e1e20;
+  @include breakpoint-down(mobile) {
+    height: 100%;
+  }
+  &__wrapper {
+    padding: 20rem 25rem;
+    @media screen and (max-width: 1700px) {
+      padding: 20rem 5rem;
+    }
+    @include breakpoint-down(laptop) {
+      padding: 20rem 4rem;
+    }
+    @include breakpoint-down(tab) {
+      padding: 20rem 3rem;
+    }
+    @include breakpoint-down(mobile) {
+      padding: 15rem 2rem;
+    }
+  }
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include breakpoint-down(tab) {
+      flex-direction: column;
+      .button-container {
+        justify-content: center;
+      }
+    }
+
+    &-text {
+      flex: 1;
+      margin-right: 8rem;
+      @include breakpoint-down(tab) {
+        text-align: center;
+        margin-right: 0rem;
+        margin-bottom: 2rem;
+      }
+      h2 {
+        font-size: 6.5rem;
+        font-weight: 600;
+        color: #fff;
+        line-height: 90px;
+        letter-spacing: 0.1em;
+        margin-bottom: 5rem;
+        @media screen and (max-width: 1400px) {
+          font-size: 5rem;
+          line-height: 80px;
+        }
+        @include breakpoint-down(tab) {
+          font-size: 4.5rem;
+          line-height: 60px;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 3rem;
+          line-height: 50px;
+        }
+      }
+    }
+    &-img {
+      flex: 1;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+.take__control {
+  padding: 10rem 25rem;
+  @media screen and (max-width: 1700px) {
+    padding: 10rem 5rem;
+  }
+  @include breakpoint-down(laptop) {
+    padding: 10rem 4rem;
+  }
+  @include breakpoint-down(tab) {
+    padding: 8rem 3rem;
+  }
+  @include breakpoint-down(mobile) {
+    padding: 5rem 2rem;
+  }
+  &-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    @media screen and (max-width: 1150px) {
+      flex-direction: column;
+    }
+    &__infos {
+      margin-left: 10rem;
+      .button-container {
+        @include breakpoint-down(tab) {
+          justify-content: center;
+        }
+        .button1 {
+          &:hover {
+            color: #236bfe;
+          }
+        }
+        .button2 {
+          background-color: #236bfe;
+          border-radius: 5px;
+          &:hover {
+            color: #236bfe;
+            background: transparent;
+          }
+        }
+      }
+      h2 {
+        font-size: 4rem;
+        margin-bottom: 5rem;
+        color: #236bfe;
+        @include breakpoint-down(tab) {
+          text-align: center;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 2.5rem;
+        }
+      }
+    }
+    &__info {
+      flex-basis: 60%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      &:not(:last-child) {
+        margin-bottom: 3rem;
+      }
+      h4 {
+        font-size: 2rem;
+        margin-right: 2rem;
+        color: #236bfe;
+        @include breakpoint-down(mobile) {
+          font-size: 1.6rem;
+        }
+      }
+      p {
+        margin: 0;
+        font-size: 2rem;
+        text-align: left;
+        @include breakpoint-down(mobile) {
+          font-size: 1.6rem;
+        }
+      }
+    }
+    &__image {
+      flex-basis: 50%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+.getMore {
+  background-color: #ebebeb;
+  padding: 10rem 25rem;
+  @media screen and (max-width: 1700px) {
+    padding: 10rem 5rem;
+  }
+  @include breakpoint-down(laptop) {
+    padding: 10rem 4rem;
+  }
+  @include breakpoint-down(tab) {
+    padding: 8rem 3rem;
+  }
+  @include breakpoint-down(mobile) {
+    padding: 5rem 2rem;
+  }
+  &-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 1150px) {
+      flex-direction: column;
+    }
+    &__infos {
+      flex-basis: 60%;
+      margin-right: 2rem;
+      @media screen and (max-width: 1150px) {
+        text-align: center;
+        margin-right: 0rem;
+        margin-bottom: 5rem;
+      }
+
+      .button-container {
+        @include breakpoint-down(tab) {
+          justify-content: center;
+        }
+        .button1 {
+          &:hover {
+            color: #236bfe;
+          }
+        }
+        .button2 {
+          background-color: #236bfe;
+          border-radius: 5px;
+          &:hover {
+            color: #236bfe;
+            background: transparent;
+          }
+        }
+      }
+      h2 {
+        font-size: 4rem;
+        margin-bottom: 5rem;
+        color: #236bfe;
+        @include breakpoint-down(tab) {
+          text-align: center;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 2.5rem;
+        }
+      }
+    }
+    &__info {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      h4 {
+        font-size: 2.5rem;
+        margin-right: 2rem;
+        color: #236bfe;
+        @include breakpoint-down(mobile) {
+          font-size: 1.6rem;
+        }
+      }
+      p {
+        margin: 0;
+        font-size: 2rem;
+        text-align: left;
+        @include breakpoint-down(mobile) {
+          font-size: 1.6rem;
+        }
+      }
+    }
+    &__image {
+      flex-basis: 50%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

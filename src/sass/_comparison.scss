@@ -1,0 +1,202 @@
+.account__comparison {
+  width: 100%;
+  background-color: #1e1e20;
+  &__wrapper {
+    position: relative;
+    z-index: 10;
+    padding: 20rem 20rem;
+    @media screen and (max-width: 1700px) {
+      padding: 18rem 5rem;
+    }
+    @include breakpoint-down(tab) {
+      padding: 15rem 4rem;
+    }
+    @include breakpoint-down(mobile) {
+      padding: 15rem 2rem;
+    }
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10rem;
+    @include breakpoint-down(tab) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &-heading {
+      flex-basis: 50%;
+      margin-right: 5rem;
+      @include breakpoint-down(tab) {
+        margin-right: 0rem;
+        margin-bottom: 5rem;
+        text-align: center;
+      }
+      h2 {
+        font-size: 5rem;
+        color: #fff;
+        font-weight: 500;
+        margin-bottom: 3rem;
+        letter-spacing: 0.1em;
+
+        @include breakpoint-down(tab) {
+          font-size: 4rem;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 3rem;
+        }
+      }
+      p {
+        font-size: 1.8rem;
+        line-height: 40px;
+        color: #fff;
+        @include breakpoint-down(mobile) {
+          font-size: 1.5rem;
+          line-height: 24px;
+        }
+      }
+    }
+    &-img {
+      flex-basis: 50%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  &-btn {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @include breakpoint-down(mobile) {
+      flex-direction: column;
+    }
+    &-single {
+      font-family: "Poppins", sans-serif;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-size: 3rem;
+      margin-inline: 2rem;
+      width: 25rem;
+      font-weight: 500;
+      padding: 1.5rem 0rem;
+      background: #fff;
+      border: none;
+      color: #000;
+      border-radius: 5px;
+      @include breakpoint-down(tab) {
+        font-size: 2.2rem;
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 2rem;
+        margin-inline: 0;
+        margin-block: 2rem;
+      }
+    }
+    .fbtn_active {
+      background: #236bfe;
+      color: #fff;
+    }
+  }
+}
+.financial {
+  padding: 10rem 20rem;
+  @media screen and (max-width: 1700px) {
+    padding: 10rem 5rem;
+  }
+  @include breakpoint-down(tab) {
+    padding: 10rem 4rem;
+  }
+  @include breakpoint-down(mobile) {
+    padding: 8rem 2rem;
+  }
+  &__heading {
+    text-align: center;
+    margin-bottom: 5rem;
+    h2 {
+      font-size: 4rem;
+      font-weight: 500;
+      color: #2a9ef4;
+      margin-bottom: 2rem;
+      @include breakpoint-down(mobile) {
+        font-size: 3rem;
+      }
+    }
+    p {
+      font-size: 1.6rem;
+      @include breakpoint-down(mobile) {
+        font-size: 1.4rem;
+      }
+    }
+  }
+  &__links {
+    display: flex;
+    justify-content: center;
+    @include breakpoint-down(tab) {
+      flex-wrap: wrap;
+    }
+    a {
+      display: inline-block;
+      font-size: 2rem;
+      color: #787f98;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-block: 3rem;
+      &:hover {
+        color: #2a9ef4;
+        transform: translateY(-5px);
+      }
+      &:not(:last-child) {
+        margin-right: 3rem;
+        @media screen and (max-width: 400px) {
+          margin-right: 0rem;
+        }
+      }
+    }
+  }
+  &-table {
+    margin-top: 3rem;
+    text-align: center;
+
+    @include breakpoint-down(tab) {
+      overflow-x: scroll;
+    }
+    .table-title {
+      margin-top: 6rem;
+      margin-bottom: 2rem;
+      font-size: 3rem;
+      font-weight: 500;
+      color: #000;
+    }
+
+    &-content {
+      width: 100%;
+      text-align: center;
+      border-spacing: 0;
+      border-radius: 10px;
+      overflow-x: scroll;
+      box-shadow: 4px 7px 9px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      thead {
+        background: #447ffd;
+        border-spacing: 0px;
+      }
+      th {
+        font-size: 1.6rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        padding: 4rem 2rem;
+        color: #fff;
+      }
+      td {
+        font-size: 1.4rem;
+        padding: 3rem 1rem;
+        background: #fff;
+        color: #000;
+        border: 1px solid #c4c4c4;
+      }
+    }
+  }
+}
